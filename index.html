@@ -1,0 +1,151 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>goServe</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Free Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="goserve-header">
+    <div class="header-top">
+      <a href="/" class="logo" aria-label="goServe homepage">
+        <span>go</span><span>Serve</span>
+      </a>
+      <div class="header-actions">
+        <button class="action-btn" aria-label="Profile">
+          <i class="far fa-user"></i>
+        </button>
+        <button class="action-btn" aria-label="Wishlists">
+          <i class="far fa-heart"></i>
+        </button>
+        <button class="action-btn" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <form class="search-bar" role="search">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="Start your search" aria-label="Search services" />
+    </form>
+
+    <nav class="category-bar">
+      <button class="category-item active" aria-current="page">
+        <i class="fas fa-home"></i><span>Home</span>
+      </button>
+      <button class="category-item">
+        <i class="fas fa-briefcase"></i><span>Jobs</span>
+      </button>
+      <button class="category-item">
+        <i class="fas fa-shopping-bag"></i><span>Buy/Sell</span>
+      </button>
+      <button class="category-item">
+        <i class="fas fa-tools"></i><span>Services</span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-svg"></div>
+    <div class="hero-content">
+      <h1>
+        <span class="charcoal">Find Services</span>
+        <span class="accent">You Can Trust</span>
+      </h1>
+      <p>
+        Connecting Zimbabwe with reliable professionals, jobs, and deals—fast
+        and easy.
+      </p>
+      <a href="#" class="cta-btn">Explore Now</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Logo & Description -->
+      <div class="footer-section">
+        <h2 class="footer-logo">
+          <span>go</span><span>Serve</span>
+        </h2>
+        <p class="description">
+          Connecting people with trusted local services and opportunities across
+          Zimbabwe.
+        </p>
+      </div>
+
+      <!-- Links Grid -->
+      <div class="footer-links">
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Buy/Sell</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Top Categories</h3>
+          <ul>
+            <li><a href="#">Plumbing</a></li>
+            <li><a href="#">Electrical</a></li>
+            <li><a href="#">Home Cleaning</a></li>
+            <li><a href="#">Gardening</a></li>
+            <li><a href="#">Beauty & Wellness</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Support</h3>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Report a Problem</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Newsletter Signup -->
+      <div class="footer-newsletter">
+        <h3>Stay Updated</h3>
+        <form>
+          <input type="email" name="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+          <small>You can unsubscribe anytime.</small>
+        </form>
+      </div>
+
+      <!-- Social Media -->
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-bottom">
+        <p>© 2025 goServe. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
